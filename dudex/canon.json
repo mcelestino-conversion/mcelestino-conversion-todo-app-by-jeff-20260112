@@ -1,23 +1,34 @@
 {
   "canon_version": "1.0",
-  "note": "This is a template canon.json file. It will be replaced during generation with the actual build specification.",
+  "description": "a custom react + typescript todo application featuring full crud functionality and a local ai assistant that predicts and generates a daily predefined task list based on user history. styled entirely with tailwind css (no prebuilt components).",
+  "features": [
+    "crud for tasks",
+    "custom tailwind design (no prebuilt components)",
+    "local storage persistence",
+    "mark complete/incomplete",
+    "predictive ai assistant (local logic)",
+    "responsive design"
+  ],
+  "pages": [
+    "home",
+    "settings",
+    "tasks"
+  ],
   "project": {
-    "name": "Template Project",
-    "type": "web_app",
-    "framework": "nextjs",
-    "language": "typescript"
-  },
-  "description": "Template project structure for DUDE X Builder",
-  "features": [],
-  "pages": [],
-  "styling": {
-    "framework": "tailwind"
+    "framework": "react",
+    "language": "typescript",
+    "name": "todo app by jeff",
+    "type": "web_app"
   },
   "requirements": {
-    "seo": true,
+    "accessibility": true,
     "analytics": false,
+    "performance": "high",
     "responsive": true,
-    "accessibility": true
+    "seo": false
+  },
+  "styling": {
+    "color_scheme": "custom",
+    "framework": "tailwind"
   }
 }
-
